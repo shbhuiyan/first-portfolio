@@ -9,7 +9,7 @@
 
 /* Shared Styles */
 
-/* .flex{
+.flex{
     display: flex;
 }
 .btn-primary{
@@ -27,19 +27,19 @@
     font-size: 1rem;
     color: rgba(117, 117, 117, 1);
     margin: 1.5rem 0;
-} */
+}
 
 /* header styles */
-/* header{
+header{
     max-width: 1440px;
     margin: 0 auto;
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left center,right bottom;
-} */
+}
 
 /* nav styles */
-/* .nav-container{
+.nav-container{
     margin: 50px 200px;
     justify-content: space-between;
     align-items: center;
@@ -53,10 +53,10 @@
     text-decoration: none;
     color: rgba(71, 71, 71, 1);
     margin-right: 3rem;
-} */
+}
 
 /* banner styles */
-/* .banner{
+.banner{
     margin: 0 30px 0 200px;
     justify-content: space-between;
     align-items: center;
@@ -77,5 +77,5 @@
     border: 2px solid rgba(253, 110, 10, 1);
     background: none;
     margin-left: 1rem;
-} */
+}
 
