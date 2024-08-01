@@ -8,7 +8,16 @@
 }
 
 /* Shared Styles */
-
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    text-align: center;
+}
 .flex{
     display: flex;
 }
@@ -23,6 +32,11 @@
     cursor: pointer;
 
 }
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+}
 .section-subtitle{
     font-size: 1rem;
     color: rgba(117, 117, 117, 1);
@@ -31,11 +45,10 @@
 
 /* header styles */
 header{
-    max-width: 1440px;
-    margin: 0 auto;
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left center,right bottom;
+    margin-bottom: 3.5rem;
 }
 
 /* nav styles */
@@ -79,3 +92,44 @@ header{
     margin-left: 1rem;
 }
 
+/* About section styles */
+.about-container{
+    max-width: 830px;
+    margin: 6rem auto;
+}
+.info-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.info-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(71, 71, 71, 1);
+}
+.info-subtitle{
+    font-size: 1.125rem;
+    color: rgba(117, 117, 117, 1);
+}
+
+/* experience section styles */
+/* .experience-titles{
+    max-width: 830px;
+    margin: 6rem auto;
+}
+.card-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: start;
+}
+.cards{
+    max-width: 230px;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+} */
