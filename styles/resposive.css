@@ -1,0 +1,34 @@
+@media only screen and (max-width: 576px) {
+    header,main{
+        padding:0px 1.125rem;
+    }
+    header  {
+        background: none;
+    }
+    .nav-container,.banner,.about-content{
+        margin: 0;
+    }
+    .nav-items{
+        display: none;
+    }
+    .hambur{
+        display: block;
+    }
+    .banner{
+        margin-top:2.5rem;
+    }
+    .banner,.info-container,.card-container,.resume-content{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .banner>.banner-image-content>img{
+        width: 100%;
+    }
+    .footer{
+        padding: 2rem;
+        flex-direction: column-reverse;
+    }
+    .massage-box{
+        align-items: normal;
+    }
+}
